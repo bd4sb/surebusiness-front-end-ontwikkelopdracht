@@ -1,0 +1,21 @@
+:root {
+  --header-height: 45px;
+  --max-width-site: 1400px;
+
+  --spacing-xs: 10px;
+  --spacing-s:  15px;
+  --spacing-m:  25px;
+  --spacing-l:  50px;
+
+  --border-radius-s: 5px;
+  --border-radius-m: 7px;
+
+  --shadow-m: 0 var(--shadow-m-offset-y) var(--shadow-m-blur-radius) rgb(0 0 0 / .05);
+  --shadow-m-blur-radius: 3px;
+  --shadow-m-offset-y: 1px;
+  --shadow-m-size-bottom: calc(var(--shadow-m-blur-radius) + var(--shadow-m-offset-y));
+
+  --color-primary: #12a19a;
+  --color-text-primary: #252525;
+  --color-text-secondary: #8a9298;
+}
